@@ -51,3 +51,13 @@ It contains:
           * make
      * To run: ./waveletf  inputfile  \<level of decomposition\>  \<treshold for schrinkage\>
      * Additional information: it is possible to use 1 -hard schrinkage; 2 - soft schrinkage; 3 - Garrote schrinkage
+* diffusion -  diffusion of the picture
+<p align="center">
+   <img src="https://github.com/Dtananaev/cv_filters/blob/master/pictures/Eiffel_tover.jpg" width="350"/>
+   <img src="https://github.com/Dtananaev/cv_filters/blob/master/pictures/tower_diffusion.jpg" width="350"/>
+</p>
+     * To install use in terminal: 
+          * cd ../cv_filter/diffusion
+          * make
+     * To run: ./diffusion  inputfile  \<number of iteration k\>
+     * Additional information: it is possible to use 1 -TVflow; 2 - Dual implementation; 3 -Perona-Malik diffusion; 4 - Potts potential
