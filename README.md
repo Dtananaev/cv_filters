@@ -6,6 +6,6 @@ Computer vision: filters
 It contains:
 
 * box_filter
- [![box_filter] (https://github.com/Dtananaev/cv_filters/blob/master/pictures/tesla_gaussn.jpg)
+ ![box_filter] (https://github.com/Dtananaev/cv_filters/blob/master/pictures/tesla_gaussn.jpg) (https://github.com/Dtananaev/cv_filters/blob/master/pictures/tesla_gaussn.jpg)
      * To install use: catkin_make -j1 
      * To run: roslaunch graph_planner graph.launch
