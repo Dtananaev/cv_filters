@@ -6,6 +6,6 @@ Computer vision: filters
 It contains:
 
 * box_filter
- [![box_filter](https://github.com/Dtananaev/cv_filters/tree/master/box_filter/pictures/volt_gaussn.ppm)]
+ [![box_filter](https://github.com/Dtananaev/cv_filters/blob/master/pictures/lamborghini_noisy.jpg)]
      * To install use: catkin_make -j1 
      * To run: roslaunch graph_planner graph.launch
