@@ -13,4 +13,4 @@ It contains:
      * To install use in terminal: 
              * cd ../cv_filter/gauss_noise
              * make
-     * To run: ./gaussn name_of_file <mean value> <variance>
+     * To run: ./gaussn name_of_file \<mean value\> \<variance\>
