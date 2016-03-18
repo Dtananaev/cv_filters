@@ -7,8 +7,8 @@ It contains:
 
 * gauss_noise - add gauss noise to the image 
 <p align="center">
-  <img src="https://github.com/Dtananaev/cv_filters/blob/master/pictures/lamba.jpg" title="About screen" width="350"/>
-  <img src="https://github.com/Dtananaev/cv_filters/blob/master/pictures/lamborghini_noisy.jpg"  title="About screen" width="350"/>
+  <img src="https://github.com/Dtananaev/cv_filters/blob/master/pictures/lamba.jpg" width="350"/>
+  <img src="https://github.com/Dtananaev/cv_filters/blob/master/pictures/lamborghini_noisy.jpg" width="350"/>
 </p>
      * To install use in terminal: 
              * cd ../cv_filter/gauss_noise
@@ -16,7 +16,7 @@ It contains:
      * To run: ./gaussn name_of_file \<mean value\> \<variance\>
 * gauss_filter - add gauss blur to the image
 <p align="center">
-  <img src="https://github.com/Dtananaev/cv_filters/blob/master/pictures/tesla_gaussn.jpg" alt="About screen1" title="About screen" width="350"/>
+
   <img src="https://github.com/Dtananaev/cv_filters/blob/master/pictures/tesla.jpg" width="350"/>
   <img src="https://github.com/Dtananaev/cv_filters/blob/master/pictures/tesla_gaussn_gaussf.jpg" width="350"/>
 </p>
