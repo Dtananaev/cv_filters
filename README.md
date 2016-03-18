@@ -41,3 +41,13 @@ It contains:
           * cd ../cv_filter/wavelet_decompose
           * make
      * To run: ./wavelet inputfile  \<level of decomposition\> 
+* wavelet_filter - wavelet schrinkage of the picture
+<p align="center">
+   <img src="https://github.com/Dtananaev/cv_filters/blob/master/pictures/tesla_gaussn_coeff.jpg" width="350"/>
+   <img src="https://github.com/Dtananaev/cv_filters/blob/master/pictures/tesla_gaussn_recovered.jpg" width="350"/>
+</p>
+     * To install use in terminal: 
+          * cd ../cv_filter/wavelet_filter
+          * make
+     * To run: ./waveletf  inputfile  \<level of decomposition\>  \<treshold for schrinkage\>
+     * Additional information: it is possible to use 1 -hard schrinkage; 2 - soft schrincage; 3 - Garrote schrinkage
