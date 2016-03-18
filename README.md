@@ -31,4 +31,4 @@ It contains:
      * To install use in terminal: 
           * cd ../cv_filter/box_filter
           * make
-     * To run: ./boxf inputfile <size of box> <number of iterations of  box filter>
+     * To run: ./boxf inputfile \<size of box\> \<number of iterations of  box filter\>
