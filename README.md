@@ -1,5 +1,6 @@
 Computer vision: filters
 ====================================================
+All filters can process only files in ppm format.
 
 [![BSD2 License](http://img.shields.io/badge/license-BSD2-brightgreen.svg)](https://github.com/Dtananaev/cv_filters/blob/master/LICENSE.md) 
 
@@ -61,3 +62,13 @@ It contains:
           * make
      * To run: ./diffusion  inputfile  \<number of iteration k\>
      * Additional information: it is possible to use 1 -TVflow; 2 - Dual implementation; 3 -Perona-Malik diffusion; 4 - Potts potential
+
+* nlm -  non-local mean filter
+<p align="center">
+   <img src="https://github.com/Dtananaev/cv_filters/blob/master/pictures/fallingMangoes_gaussn.jpg" width="350"/>
+   <img src="https://github.com/Dtananaev/cv_filters/blob/master/pictures/fallingMangoes_gaussn_nlm.jpg" width="350"/>
+</p>
+     * To install use in terminal: 
+          * cd ../cv_filter/nlm
+          * make
+     * To run: ./nlm  inputfile  \<path radius\> \<window radius\> \<sigma\>
