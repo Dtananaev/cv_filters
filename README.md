@@ -32,3 +32,12 @@ It contains:
           * cd ../cv_filter/box_filter
           * make
      * To run: ./boxf inputfile \<size of box\> \<number of iterations of  box filter\>
+* wavelet_decomposition - wavelet decomposition of the picture
+<p align="center">
+   <img src="https://github.com/Dtananaev/cv_filters/blob/master/pictures/tesla.jpg" width="350"/>
+   <img src="https://github.com/Dtananaev/cv_filters/blob/master/pictures/tesla_coeff.jpg" width="350"/>
+</p>
+     * To install use in terminal: 
+          * cd ../cv_filter/wavelet_decompose
+          * make
+     * To run: ./wavelet inputfile  \<level of decomposition\> 
