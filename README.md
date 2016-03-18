@@ -11,8 +11,8 @@ It contains:
   <img src="https://github.com/Dtananaev/cv_filters/blob/master/pictures/lamborghini_noisy.jpg" width="350"/>
 </p>
      * To install use in terminal: 
-             * cd ../cv_filter/gauss_noise
-             * make
+          * cd ../cv_filter/gauss_noise
+         * make
      * To run: ./gaussn name_of_file \<mean value\> \<variance\>
 * gauss_filter - add gauss blur to the image
 <p align="center">
@@ -21,8 +21,8 @@ It contains:
   <img src="https://github.com/Dtananaev/cv_filters/blob/master/pictures/tesla_gaussn_gaussf.jpg" width="350"/>
 </p>
     * To install use in terminal: 
-             * cd ../cv_filter/gauss_filter
-             * make
+          * cd ../cv_filter/gauss_filter
+          * make
      * To run: ./gaussf inputfile \<sigma of Gauss kernell\>
 *box_filter - add blur with box filter
 <p align="center">
@@ -31,6 +31,6 @@ It contains:
   <img src="https://github.com/Dtananaev/cv_filters/blob/master/pictures/volt_gaussn_boxf.jpg" width="350"/>
 </p>
 * To install use in terminal: 
-             * cd ../cv_filter/box_filter
-             * make
+          * cd ../cv_filter/box_filter
+          * make
      * To run: ./boxf inputfile <size of box> <number of iterations of  box filter>
