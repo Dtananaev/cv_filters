@@ -14,6 +14,7 @@ It contains:
           * cd ../cv_filter/gauss_noise
           * make
      * To run: ./gaussn name_of_file \<mean value\> \<variance\>
+  \n
 * gauss_filter - add gauss blur to the image
 <p align="center">
   <img src="https://github.com/Dtananaev/cv_filters/blob/master/pictures/tesla.jpg" width="350"/>
