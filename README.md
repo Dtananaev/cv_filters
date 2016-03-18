@@ -5,7 +5,7 @@ Computer vision: filters
 
 It contains:
 
-* gauss_nouse - add gauss noise to the image 
+* gauss_noise - add gauss noise to the image 
 <p align="center">
   <img src="https://github.com/Dtananaev/cv_filters/blob/master/pictures/lamba.jpg" width="350"/>
   <img src="https://github.com/Dtananaev/cv_filters/blob/master/pictures/lamborghini_noisy.jpg" width="350"/>
