@@ -50,4 +50,4 @@ It contains:
           * cd ../cv_filter/wavelet_filter
           * make
      * To run: ./waveletf  inputfile  \<level of decomposition\>  \<treshold for schrinkage\>
-     * Additional information: it is possible to use 1 -hard schrinkage; 2 - soft schrincage; 3 - Garrote schrinkage
+     * Additional information: it is possible to use 1 -hard schrinkage; 2 - soft schrinkage; 3 - Garrote schrinkage
