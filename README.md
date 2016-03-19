@@ -23,7 +23,7 @@ It contains:
      * To install use in terminal: 
           * cd ../cv_filter/gauss_filter
           * make
-     * To run: ./gaussf inputfile \<sigma of Gauss kernell\>
+     * To run: ./gaussf inputfile(without .ppm) \<sigma of Gauss kernell\>
 * box_filter - add blur with box filter
 <p align="center">
    <img src="https://github.com/Dtananaev/cv_filters/blob/master/pictures/Chevrolet-Volt.jpg" width="350"/>
