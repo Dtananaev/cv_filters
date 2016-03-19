@@ -2,7 +2,7 @@ Computer vision: filters
 ====================================================
 All filters can process only files in ppm format.
 
-
+[![Build Status](https://travis-ci.org/Dtananaev/cv_filters.svg?branch=master)](https://travis-ci.org/Dtananaev/cv_filters)
 [![BSD2 License](http://img.shields.io/badge/license-BSD2-brightgreen.svg)](https://github.com/Dtananaev/cv_filters/blob/master/LICENSE.md) 
      
 To install type in the terminal in Linux:
