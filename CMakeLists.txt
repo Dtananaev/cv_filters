@@ -29,4 +29,4 @@ target_link_libraries (waveletf)
 #Nlm filter
 add_executable (nlm nlm_filter/nlm.cpp )
 target_link_libraries (nlm)
-
+ 
