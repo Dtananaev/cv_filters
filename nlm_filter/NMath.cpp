@@ -2,7 +2,7 @@
 
 #include <math.h>
 #include <stdlib.h>
-#include <NMath.h>
+#include "NMath.h"
 
 namespace NMath {
 

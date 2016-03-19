@@ -21,7 +21,7 @@
 #else
   #include <sstream>
 #endif
-#include <CVector.h>
+#include "CVector.h"
 
 template <class T>
 class CMatrix {
@@ -1137,8 +1137,7 @@ inline T& CMatrix<T>::operator()(const int ax, const int ay) const {
     if (ax >= mXSize || ay >= mYSize || ax < 0 || ay < 0)
       throw EMatrixRangeOverflow(ax,ay);
   #endif
-
-	return mData[mXSize*ay+ax];
+  return mData[mXSize*ay+ax];
 }
 
 // operator =

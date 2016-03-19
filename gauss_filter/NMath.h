@@ -8,8 +8,8 @@
 
 #include <math.h>
 #include <stdlib.h>
-#include <CVector.h>
-#include <CMatrix.h>
+#include "CVector.h"
+#include "CMatrix.h"
 
 namespace NMath {
   // Returns the faculty of a number

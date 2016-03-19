@@ -5,12 +5,12 @@
  *      Author: Denis Tananaev
  */
 
-#include <CMatrix.h>
+#include "CMatrix.h"
 #include <stdlib.h> 
 #include <ctime>
 #include <cmath>
 #include <string>
-#include <CTensor.h>
+#include "CTensor.h"
 
 
 

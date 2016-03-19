@@ -10,8 +10,8 @@
 #include <fstream>
 #include <string>
 #include <sstream>
-#include <CMatrix.h>
-#include <NMath.h>
+#include "CMatrix.h"
+#include "NMath.h"
 
 template <class T>
 class CTensor {
@@ -849,7 +849,7 @@ void CTensor<T>::readFromPGM(const char* aFilename) {
 // writeToPGM
 template <class T>
 void CTensor<T>::writeToPGM(const char* aFilename) {
-  int rows = (int)floor(sqrt(mZSize));
+  int rows = (int)floor(sqrtf(mZSize));
   int cols = (int)ceil(mZSize*1.0/rows);
   FILE* outimage = fopen(aFilename, "wb");
   fprintf(outimage, "P5 \n");

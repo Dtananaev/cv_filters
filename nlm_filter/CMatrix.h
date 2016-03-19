@@ -21,7 +21,7 @@
 #else
   #include <sstream>
 #endif
-#include <CVector.h>
+#include "CVector.h"
 
 template <class T>
 class CMatrix {

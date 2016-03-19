@@ -446,7 +446,8 @@ inline int CVector<T>::size() const {
   return mSize;
 }
 
-// N O N - M E M B E R   F U N C T I O N S -------------------------------------
+// N O N - M E M B E R   F U N C T I O N S -------------------------------------
+
 
 // operator +
 template <class T>

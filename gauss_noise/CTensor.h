@@ -10,8 +10,8 @@
 #include <fstream>
 #include <string>
 #include <sstream>
-#include <CMatrix.h>
-#include <NMath.h>
+#include "CMatrix.h"
+#include "NMath.h"
 
 template <class T>
 class CTensor {

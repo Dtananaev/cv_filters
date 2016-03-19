@@ -9,11 +9,11 @@
 #define CFILTER
 
 #include <math.h>
-#include <NMath.h>
-#include <CVector.h>
-#include <CMatrix.h>
-#include <CTensor.h>
-#include <CTensor4D.h>
+#include "NMath.h"
+#include "CVector.h"
+#include "CMatrix.h"
+#include "CTensor.h"
+#include "CTensor4D.h"
 
 // CFilter is an extention of CVector. It has an additional property Delta
 // which shifts the data to the left (a vector always begins with index 0).
