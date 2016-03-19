@@ -2,7 +2,15 @@ Computer vision: filters
 ====================================================
 All filters can process only files in ppm format.
 
+
 [![BSD2 License](http://img.shields.io/badge/license-BSD2-brightgreen.svg)](https://github.com/Dtananaev/cv_filters/blob/master/LICENSE.md) 
+     
+To install type in the terminal in Linux:
+* cd cv_filters
+* mkdir build
+* cd build
+* cmake  ..
+* make
 
 It contains:
 
